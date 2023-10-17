@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&family=Instrument+Sans:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+.container{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 137.5px;
+    height: 20px;
+    margin-right: 56.5px;
+
+}
+.nav-wraper{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 43px;
+    margin-bottom: 43px;
+}
+.solid{
+    height: 1px;
+    background-color: #E4E9F2;
+    margin-top: 34px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    color: #69707D;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 400; 
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap:32px;
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+   
+}
+
+.profile-picture{
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.profile-picture img{
+    width: 100%;
+    height: 100%;
+}
+.cart-number{
+    position: relative ;
+}
+.cart{
+    margin-right: 46.18px;
+    width: 28px;
+    height: 26px;
+}
+.number-wraper{
+    width: 19px;
+    height: 13px;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 6.5px;
+    background: #FF7E1B;
+}
+.number{
+    color: white;
+    text-align: center;
+}
+
+/* preview section  */
+.sneakers-section{
+    margin-top: 48px;
+}
+.sneakers-left{
+    max-width: 445px;
+    width: 100%;
+    margin: 0 auto;
+}
+.preview{
+    width: 445px;
+    height: 445px;
+ 
+}
+
+.preview img{
+    width:100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+.sneaker-slider{
+    display: flex;
+
+}
+
+.slider-sneakers{
+    width: 88px;
+    height: 88px;
+    margin-top: 32px;
+    
+}
+
+.slider-sneakers img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
